@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Profile Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Meet Our Team</h1>
+    <div class="card-container">
+       <div class="card">
+            <img src="https://placehold.co/150x150?text=Ali"
+                 alt="Ali profile picture">
+            <h2>Ali</h2>
+            <p>Frontend Developer</p>
+            <h3>Skills</h3>
+            <p>HTML, CSS, JavaScript</p>
+            <button onclick="showProfile('alex')">
+                View Profile
+            </button>
+            <p id="ali" class="details"></p>
+        </div>
+        <div class="card">
+            <img src="https://placehold.co/150x150?text=Sam"
+                 alt="Sam profile picture">
+            <h2>Sam</h2>
+            <p>Java Developer</p>
+            <h3>Skills</h3>
+            <p>Java, OOP, SQL</p>
+            <button onclick="showProfile('sam')">
+                View Profile
+            </button>
+            <p id="sam" class="details"></p>
+        </div>
+        <div class="card">
+            <img src="https://placehold.co/150x150?text=Taylor"
+                 alt="Taylor profile picture">
+            <h2>Taylor</h2>
+            <p>Python Developer</p>
+            <h3>Skills</h3>
+            <p>Python, Django, SQL</p>
+            <button onclick="showProfile('taylor')">
+                View Profile
+            </button>
+            <p id="taylor" class="details"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
